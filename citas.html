@@ -221,8 +221,9 @@
   </footer>
 
   <script type="module">
-    import { verificarSesionProtegida, cerrarSesion } from './js/auth.js';
-    import { guardarRegistro } from './js/registro.js';
+    // AQUI SE CORRIGIERON LAS RUTAS A MAYUSCULAS (JS)
+    import { verificarSesionProtegida, cerrarSesion } from './JS/auth.js';
+    import { guardarRegistro } from './JS/registro.js';
 
     // 1. Protección de ruta: Redirecciona a login.html si no hay sesión
     const usuarioActual = verificarSesionProtegida();
